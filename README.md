@@ -1,33 +1,23 @@
-# PHP
-
-## Description
-
-## Student Registration Form in PHP
-This project implements a simple student registration system with PHP and MySQL. Users fill out a form to input student details like name, age, contact, and course. These details are stored in a MySQL database.
-
-## Key Features
-
-## Database Connection:
-- Managed by the Config class (config.php), which connects to the student database using MySQLi.
-
-## Form Submission:
-- The form collects user inputs and submits them via POST to the PHP script.
-- On submission, the insertData method in the Config class adds the data to the students table.
-
-## Code Highlights:
-- The Config class handles database connectivity and query execution.
-- HTML form ensures user-friendly input and uses CSS for styling.
-- This project is a beginner-friendly example of PHP and MySQL integration for managing basic CRUD operations.
-
-https://github.com/user-attachments/assets/5e0adc85-09b1-4646-b116-d5f4873ff143
+<h1 align="center">👉 PHP Registration Form 👈</h1> 
 
 # Description
+This project is a simple employee registration form built using PHP and XAMPP as the server. It includes a fully functional CRUD (Create, Read, Update, Delete) operation for managing employee records. The form collects essential details such as name, email, position, and salary, and displays them in a table after submission. The application is styled with HTML and CSS, using Bootstrap for a responsive and modern design. Users can add, view, edit, and delete employee data through an intuitive interface. This project is ideal for anyone looking to learn how to work with PHP and manage data using MySQL on a local server, while leveraging the flexibility of Bootstrap to make the front end user-friendly and visually appealing.
 
-This project demonstrates a basic CRUD (Create, Read, Update, Delete) application in PHP using Bootstrap for styling. It features a fully functional web application where users can add, view, update, and delete records from a database. The backend is powered by PHP, while MySQL is used as the database management system. The interface is styled with Bootstrap to ensure responsiveness and a user-friendly design.
+<h3 align="center">PHP Registration Form Video</h3>  
 
-The project is structured into separate files for clarity and maintainability. The config.php file handles database connectivity, while index.php serves as the main page to display records in a styled table. Other pages like add.php, update.php, and delete.php manage specific operations. The database setup is simplified with an included SQL file (database.sql), which can be easily imported to initialize the required table.
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/57004a23-3641-4e9a-879a-e0c10d986386"> 
+</video>
+</div>
 
-Users can clone this repository to set up the project locally or deploy it on a web server. After configuring the database credentials in config.php, the application will be ready to use. This project is ideal for beginners looking to learn PHP and Bootstrap or as a quick starter template for CRUD applications.
+<h3 align="center">👉 PHP Registration Form Images 👈</h3>  
 
-https://github.com/user-attachments/assets/7418ef0c-9e4b-4e48-ab45-2b12f642deb1
+<div align="center">  
+  <img height="400" src="https://github.com/user-attachments/assets/c1303780-66f7-4d6f-8e9e-180c4daad9a5" style="border: 5px solid #000; border-radius: 10px;" />  
+  <br>  
+  <img height="395" src="https://github.com/user-attachments/assets/c420f314-a205-422c-9272-72f052bc8e14" style="border: 5px solid #000; border-radius: 10px;" />  
+</div>
 
+<div align="center">
+<a href="https://github.com/YashuPatel1724/PHP/tree/main/php">-> 📂 Go To Dart File 📂 </a>
+</div>
