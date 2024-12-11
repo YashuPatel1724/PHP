@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(to bottom right, #4e73df, #1cc88a); /* Updated gradient colors */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent with white tint */
+    backdrop-filter: blur(12px); /* Blur effect for frosted-glass look */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.4); /* Input background with transparency */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #343a40;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #4e73df; /* Focus border matching the gradient color */
+}
+
+.btn-primary {
+    background-color: #1cc88a; /* Green button color */
+    border-color: #1cc88a;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #17a673; /* Darker green on hover */
+}
+
+.table-container {
+    width: 100%;
+    margin-top: auto;
+}
+
+.table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #000000; /* Black header */
+    color: white;
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table tbody td, .table tbody th {
+    text-align: center;
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
