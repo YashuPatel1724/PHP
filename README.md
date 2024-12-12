@@ -21,3 +21,11 @@ This project is a simple employee registration form built using PHP and XAMPP as
 <div align="center">
 <a href="https://github.com/YashuPatel1724/PHP/tree/main/php">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+
+
+<h3 align="center">👉 PHP Api Get And Post 👈</h3>  
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/5c4487ef-dd64-496f-9bb2-1a24368a827e"> 
+</video>
+</div>
