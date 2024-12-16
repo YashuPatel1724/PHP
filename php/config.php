@@ -16,6 +16,7 @@ class Config
     public function insert($name,$age,$postion,$salary){
         $query = "INSERT INTO employee (name,age,postion,salary) VALUES('$name',$age,'$postion','$salary')";
         $res =  mysqli_query($this->connection,$query);
+        return $res;
     }
 
     public function fetch()
