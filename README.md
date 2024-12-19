@@ -29,3 +29,17 @@ This project is a simple employee registration form built using PHP and XAMPP as
  <video src="https://github.com/user-attachments/assets/5c4487ef-dd64-496f-9bb2-1a24368a827e"> 
 </video>
 </div>
+
+
+<h3 align="center">👉 PHP Api Crud 👈</h3>  
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/e9ac4528-b754-4e59-a334-2a451edc7444"> 
+</video>
+</div>
+
+<h3 align="center">👉 PHP Image post and delete 👈</h3>  
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/d6fc5733-1cb7-4a91-90fc-c14c8b2fd3bb"> 
+</video>
+</div>
+
